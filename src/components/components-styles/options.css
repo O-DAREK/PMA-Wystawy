@@ -1,0 +1,40 @@
+.option {
+  width: 35vw;
+  min-width: 200px;
+  height: 250px;
+  position: relative;
+  margin: 5px 10px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 15px;
+}
+
+.orderOnline {
+  background: url("https://cutt.ly/Nvao8eR");
+  background-position: center;
+  background-size: cover;
+}
+
+.outMeal {
+  background: url("https://cutt.ly/qvapWLm");
+  background-position: center;
+  background-size: cover;
+}
+
+.option:hover {
+  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.optionHeading {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .optionHeading {
+    height: 130px;
+  }
+}

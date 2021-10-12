@@ -1,2 +1,2 @@
-# PMA-Wystawy
-Created with CodeSandbox
+# truefood
+The app is built using react.
