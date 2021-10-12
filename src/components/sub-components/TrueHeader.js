@@ -11,7 +11,7 @@ export const TrueHeader = (props) => {
         <main style={{ clear: "both", textAlign: "center", color: "white" }}>
           <h1
             style={{
-              fontFamily: "Palatino",
+              fontFamily: "Aldine",
               margin: "0px"
             }}
           >

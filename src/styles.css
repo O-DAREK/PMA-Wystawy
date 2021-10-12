@@ -1,4 +1,9 @@
 .App {
-  font-family: sans-serif;
+  font-family: Aldine;
   text-align: center;
+}
+@font-face {
+  font-family: "Aldine";
+  src: local("Aldine"),
+    url(../public/fonts/Aldine-401-Regular.ttf) format("truetype");
 }

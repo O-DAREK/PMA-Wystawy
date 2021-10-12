@@ -1,7 +1,7 @@
 {
-  "name": "true-food",
+  "name": "pma-browser",
   "version": "1.0.0",
-  "description": "",
+  "description": "PMA Wystawy",
   "keywords": [],
   "main": "src/index.js",
   "husky": {
@@ -10,7 +10,9 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": ["prettier --write"]
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@material-ui/core": "4.11.3",
@@ -44,5 +46,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

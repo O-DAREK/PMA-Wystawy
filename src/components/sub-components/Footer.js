@@ -15,11 +15,11 @@ export const Footer = () => {
         <div className="footer-content">
           <h3
             style={{
-              fontFamily: "Trebuchet MS",
+              fontFamily: "Aldine",
               fontSize: "2em"
             }}
           >
-            <em>true</em>FOOD
+            Państwowe Muzeum Archeologiczne
           </h3>
           <p>trueFood is a registered company under Hexaview Tech Pvt. Ltd.</p>
           <div className="sub">
