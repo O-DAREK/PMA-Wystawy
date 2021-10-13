@@ -16,7 +16,7 @@ export const ShopCard = (props) => {
         style={{ color: "black", textDecoration: "none" }}
       >
         <img
-          style={{ height: "200px", width: "100%", borderRadius: "20px" }}
+          style={{ height: "60%", width: "60%", borderRadius: "20px" }}
           src={imgUrl}
           alt={name}
         />

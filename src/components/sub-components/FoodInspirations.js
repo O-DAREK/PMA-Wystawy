@@ -11,15 +11,15 @@ export const FoodInspirations = () => {
   ];
   return (
     <div style={{ backgroundColor: "#F5F5F5", padding: "10px" }}>
-      <h2 style={{ textAlign: "left" }}>Inspiration For Your First Order</h2>
+      <h2 style={{ textAlign: "left" }}>Wystawy</h2>
       <Slide>
         <div className="each-slide">
           <div style={{ backgroundImage: `url(${slideImages[0]})` }}></div>
-          <span>Momoz</span>
+          <span>Skarby wieków średnich</span>
         </div>
         <div className="each-slide">
           <div style={{ backgroundImage: `url(${slideImages[1]})` }}></div>
-          <span>Burgers</span>
+          <span>Monety</span>
         </div>
         <div className="each-slide">
           <div style={{ backgroundImage: `url(${slideImages[2]})` }}></div>

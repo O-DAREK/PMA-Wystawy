@@ -5,8 +5,12 @@ export const SecondaryHeader = () => {
   return (
     <Fragment>
       <h1 style={secondaryHeaderStyle}>
-        <em>true</em>FOOD
-        <p style={{ fontSize: "0.5em" }}>Deliever best at your doorsteps!</p>
+        <img
+          src={require("/public/pma-logo.png")}
+          className="App-logo"
+          alt="logo"
+        />
+        <p style={{ fontSize: "0.3em" }}>Państwowe Muzeum Archeologiczne</p>
       </h1>
       <div
         style={{
@@ -24,7 +28,7 @@ export const SecondaryHeader = () => {
 };
 
 const secondaryHeaderStyle = {
-  fontFamily: "Trebuchet MS",
+  //fontFamily: "Trebuchet MS",
   fontSize: "2em",
   margin: "0px",
   float: "left"
