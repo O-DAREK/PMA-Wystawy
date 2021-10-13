@@ -7,9 +7,9 @@ export const FoodStores = ({ baseUrl }) => {
     {
       imgUrl:
         "http://cz.pma.pl:51080/rest/Co_Na_Zdjeciu(3369)/Foto?$imageformat=best&$version=1&$expand=Foto",
-      name: "Hira Sweets",
-      variety: ["Pizza", "Burgers"],
-      price: `${"\u20A8"} 200 per person`,
+      name: "Zapinka",
+      variety: ["Ozdoby", "Bizuteria"],
+      price: ``,
       rating: 5
     },
     {
